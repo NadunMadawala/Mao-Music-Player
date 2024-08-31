@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MaoMusic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Headings -->
+    <string name="head_1">Song 1</string>
+    <string name="head_2">Song 2</string>
+    <string name="head_3">Song 3</string>
+    <string name="head_4">Song 4</string>
+    <string name="head_5">Song 5</string>
+    <string name="head_6">Song 6</string>
+    <string name="head_7">Song 7</string>
+    <string name="head_8">Song 8</string>
+    <string name="head_9">Song 9</string>
+    <string name="head_10">Song 10</string>
+
+</resources>

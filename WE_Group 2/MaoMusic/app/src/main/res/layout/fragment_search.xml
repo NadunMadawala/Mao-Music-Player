@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SearchFragment"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/search_songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Songs"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="18dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+                
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="100dp"
+                        android:text="Song 1"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:textSize="25dp">
+
+                    </TextView>
+                
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 2"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardMaxElevation="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/violet"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="5dp"
+                android:elevation="3dp"
+                android:src="@drawable/images_1"
+                android:background="@drawable/background2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="100dp"
+                android:text="Song 3"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="25dp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 4"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 5"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 6"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 7"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 8"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 9"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 10"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 11"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 12"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 13"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 14"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 15"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardMaxElevation="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardBackgroundColor="@color/violet"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_margin="5dp"
+                    android:elevation="3dp"
+                    android:src="@drawable/images_1"
+                    android:background="@drawable/background2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="100dp"
+                    android:text="Song 16"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="25dp">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
